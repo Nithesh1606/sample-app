@@ -36,9 +36,4 @@ pipeline {
                 }
 
 }
-         post {
-        always{
-        sh 'docker rm -f $(docker ps -aq)'
-        }
-        }
 }
