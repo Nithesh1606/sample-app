@@ -18,7 +18,7 @@ pipeline {
 	
 	stage ('build app') {
 	steps {
-		sh 'nohup node index.js &'
+		sh 'node index.js &'
 	     }
 	}
      
