@@ -30,7 +30,7 @@ pipeline {
         stage ('depoly') {
                 steps{
                         script {
-                         sh 'docker run -d -p 3000:3000 ci-sample-app'
+                         sh 'docker run -d -p 3000:3001 ci-sample-app'
                                 }
                         }
                 }
