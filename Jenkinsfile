@@ -1,4 +1,4 @@
-pipleline {
+pipeline {
 	agent any
 		tool {
 			nodejs 'NodeJS 18'
@@ -22,4 +22,6 @@ pipleline {
 	     }
 	}
      
-}}
+}
+}
+
