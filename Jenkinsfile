@@ -14,7 +14,7 @@ pipeline {
         steps {
                 script {
 
-                sh 'docker build -t ci-sample-app
+                sh 'docker build -t ci-sample-app .'
                         }
                 }
         }
